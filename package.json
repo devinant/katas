@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc --watch",
-    "start": "ts-node-dev --transpileOnly --respawn src/index.ts",
+    "build": "tsc --build",
+    "watch": "ts-node-dev --transpileOnly --respawn src/index.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prettier": "prettier -c .",
