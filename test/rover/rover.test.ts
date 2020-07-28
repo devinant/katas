@@ -1,4 +1,4 @@
-import { Command, Direction, go, IRover } from "./rover"
+import { Command, Direction, go, IRover } from "../../src/rover/rover"
 
 describe("Rover", () => {
   describe("turns", () => {

@@ -10,8 +10,10 @@
     "lint:fix": "eslint . --fix",
     "prettier": "prettier -c .",
     "prettier:fix": "prettier . --write",
+    "pretest": "npm run lint && npm run prettier",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "test:rover": "jest rover"
   },
   "author": "",
   "license": "ISC",
